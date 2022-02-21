@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_app/presentation/main_page/widgets/screen_main_age.dart';
+import 'package:netflix_app/presentation/main_page/screen_main_page.dart';
 
 void main() {
   runApp(const MyApp());
