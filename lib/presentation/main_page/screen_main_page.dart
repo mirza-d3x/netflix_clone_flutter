@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_app/presentation/downloads/widgets/screen_downloads.dart';
+import 'package:netflix_app/presentation/downloads/screen_downloads.dart';
 import 'package:netflix_app/presentation/fast_laugh/screen_fast_laugh.dart';
 import 'package:netflix_app/presentation/home/screen_home.dart';
 import 'package:netflix_app/presentation/main_page/widgets/bottm_navi.dart';
