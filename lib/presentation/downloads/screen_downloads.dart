@@ -58,9 +58,9 @@ class Section2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List imageList = [
-      'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg',
-      'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg',
-      'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg',
+      'https://m.media-amazon.com/images/I/51gPKlYLbjL.jpg',
+      'https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/Memories_47081444378200.jpg',
+      'https://www.filmiforest.com/img/poster_image/kurup-poster.jpg',
     ];
     final Size size = MediaQuery.of(context).size;
     return Column(

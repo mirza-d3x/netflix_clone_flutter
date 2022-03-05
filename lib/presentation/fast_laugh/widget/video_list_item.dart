@@ -34,7 +34,7 @@ class VideoListItem extends StatelessWidget {
                     padding: EdgeInsets.symmetric(vertical: 10),
                     child: CircleAvatar(
                       backgroundImage: NetworkImage(
-                        'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg',
+                        'https://www.mixindia.com/wp-content/uploads/2020/01/The-Priest-Malayalam-Movie-poster.jpg',
                       ),
                       radius: 30,
                     ),

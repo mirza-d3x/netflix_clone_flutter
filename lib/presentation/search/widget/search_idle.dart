@@ -5,7 +5,7 @@ import 'package:netflix_app/core/constant.dart';
 import 'package:netflix_app/presentation/search/widget/search_title.dart';
 
 const imageUrl =
-    'https://www.themoviedb.org/t/p/w250_and_h141_face/zrMCOQnzIgGyBtGCdMPom9bOw0r.jpg';
+    'https://www.cineseconds.com/uploads/movies/Mikhael/Mikhael-Malayalam-Movie-Posters-(3)_11019.jpg';
 
 class SearchIdleWidget extends StatelessWidget {
   const SearchIdleWidget({Key? key}) : super(key: key);
@@ -15,7 +15,9 @@ class SearchIdleWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SearchTextTitle(searchTitle: 'Top Searches',),
+        const SearchTextTitle(
+          searchTitle: 'Top Searches',
+        ),
         kHeight,
         Expanded(
           child: ListView.separated(
@@ -29,8 +31,6 @@ class SearchIdleWidget extends StatelessWidget {
     );
   }
 }
-
-
 
 class TopSearchItemTile extends StatelessWidget {
   const TopSearchItemTile({Key? key}) : super(key: key);

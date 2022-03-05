@@ -3,7 +3,7 @@ import 'package:netflix_app/core/constant.dart';
 import 'package:netflix_app/presentation/search/widget/search_title.dart';
 
 const imageURl1 =
-    'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg';
+    'https://m.media-amazon.com/images/M/MV5BZjQ0YTkzMWMtZWNlMi00ZmMxLWE5MDItYTRmZDljNTZiN2JkXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_FMjpg_UX1000_.jpg';
 
 class SearchResultWidget extends StatelessWidget {
   const SearchResultWidget({Key? key}) : super(key: key);
