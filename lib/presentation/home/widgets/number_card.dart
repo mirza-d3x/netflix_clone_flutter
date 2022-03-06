@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../core/constant.dart';
 
 class NumberCard extends StatelessWidget {
-  const NumberCard({Key? key, required this.Index}) : super(key: key);
-  final int Index;
+  const NumberCard({Key? key, required this.index}) : super(key: key);
+  final int index;
 
   @override
   Widget build(BuildContext context) {
@@ -38,8 +38,8 @@ class NumberCard extends StatelessWidget {
             strokeWidth: 3,
             strokeColor: Colors.white,
             child: Text(
-              '${Index + 1}',
-              style: TextStyle(
+              '${index + 1}',
+              style: const TextStyle(
                 fontSize: 140,
                 color: Colors.black,
                 decoration: TextDecoration.none,
