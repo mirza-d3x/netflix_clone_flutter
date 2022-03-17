@@ -79,7 +79,7 @@ Widget _buildComingSoon(BuildContext context) {
           width: 50,
           height: 500,
           child: Column(
-            children: [
+            children: const [
               Text(
                 "FEB",
                 style: TextStyle(
@@ -87,7 +87,7 @@ Widget _buildComingSoon(BuildContext context) {
                   color: greyColor,
                 ),
               ),
-              const Text(
+              Text(
                 "11",
                 style: TextStyle(
                   fontSize: 30,
@@ -102,6 +102,7 @@ Widget _buildComingSoon(BuildContext context) {
           width: size.width - 50,
           height: 500,
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Stack(
                 children: [
@@ -158,9 +159,53 @@ Widget _buildComingSoon(BuildContext context) {
                       ),
                       kWidth20,
                     ],
+                  ),
+                ],
+              ),
+              kHeight,
+              const Text("Coming on Friday"),
+              kHeight20,
+              Row(
+                children: [
+                  SizedBox(
+                    height: 30,
+                    width: 70,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.network(
+                          'https://pngimg.com/uploads/netflix/netflix_PNG22.png',
+                          height: 30,
+                          width: 30,
+                        ),
+                        const Text(
+                          'FILM',
+                          style: TextStyle(
+                            fontSize: 10,
+                            color: greyColor,
+                            letterSpacing: 2,
+                          ),
+                        ),
+                      ],
+                    ),
                   )
                 ],
-              )
+              ),
+              const Text(
+                "Tall Girl 2",
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              kHeight,
+              const Text(
+                "Landing the Lead in the school musical is a dream come true for jodi,until the pressure sends her confidence - and her relationship - into a tailspain.",
+                style: const TextStyle(
+                  color: greyColor,
+                ),
+              ),
             ],
           ),
         ),
