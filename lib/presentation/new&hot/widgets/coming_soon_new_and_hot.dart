@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-
 import '../../../core/colors/colors.dart';
 import '../../../core/constant.dart';
+import '../../Widgets/video_widget.dart';
 import '../../home/widgets/custom_button_widget.dart';
 
 class ComingSoonData extends StatelessWidget {
@@ -15,9 +14,10 @@ class ComingSoonData extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Row(
       children: [
+        kHeight20,
         SizedBox(
           width: 50,
-          height: 500,
+          height: 520,
           child: Column(
             children: const [
               Text(
@@ -44,34 +44,7 @@ class ComingSoonData extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Stack(
-                children: [
-                  SizedBox(
-                    height: 200,
-                    width: double.infinity,
-                    child: Image.network(
-                      newAndHotTempImage,
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                  Positioned(
-                    bottom: 10,
-                    right: 10,
-                    child: CircleAvatar(
-                      radius: 25,
-                      backgroundColor: balckColor.withOpacity(0.7),
-                      child: IconButton(
-                        onPressed: () {},
-                        icon: const Icon(
-                          Icons.volume_off,
-                          color: whiteColor,
-                          size: 20,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+              const VideoCardWidget(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
